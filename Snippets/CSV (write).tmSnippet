@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CSV.open(${1:file_path}, 'w', ${2:headers: ${3:HEADERS}, header_converters: CSV::HeaderConverters[:symbol]}) do |${4:csv}|
+  $0
+end
+</string>
+	<key>name</key>
+	<string>CSV (write)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>CSV</string>
+	<key>uuid</key>
+	<string>66D20D24-92C1-49A3-B217-9719ED643E13</string>
+</dict>
+</plist>

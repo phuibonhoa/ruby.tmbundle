@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CSV.foreach(${1:file_path}, ${2:headers: true, header_converters: CSV::HeaderConverters[:symbol]}) do |${3:row}|
+  $0
+end</string>
+	<key>name</key>
+	<string>CSV (read)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>CSV</string>
+	<key>uuid</key>
+	<string>4C039EF6-2A22-4A4D-AB83-8E78F2535A72</string>
+</dict>
+</plist>
